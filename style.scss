@@ -67,6 +67,7 @@ nav{
 }
 
 .section-1{
+    height: 962px;
 
     .sub1-section1{
         background-image: url(images/sub1-section1_img.avif);
@@ -123,17 +124,25 @@ nav{
     }
 }
 
+.section-2{
+    height: 800px;
+    background: #f5f5f5;
+}
+
 @media screen and (max-width:1445px){
+
     nav{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row;
-        height: 13.5vh;
+        // height: 13.5vh;
         position: fixed;
         width: 100vw;
         z-index: 9999;
-        background: transparent;
+        background: #303030e3;
+        max-height: 15%;
+        height:75px;
     
         .left-side{
     
@@ -198,29 +207,43 @@ nav{
                 }
             }
         }
-        
     }
     
     .section-1{
-    
+
         .sub1-section1{
             background-image: url(images/sub1-section1_img.avif);
             background-size: cover;
             min-height: 90%;
             width: 100%;
             float: left;
-            height: 93vh;
+            height: 100vh;
             position: relative;
     
-            h1{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: inherit;
-                font-family: system-ui;
-                font-weight: 500;
-                font-size: xxx-large;
-                color: whitesmoke;
+            .sub1-section1-textbox{
+                h1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: inherit;
+                    font-family: system-ui;
+                    font-weight: 500;
+                    font-size: 35px;
+                    color: whitesmoke;
+    
+                    a{
+                        margin: 42px 8px 0 0px;
+                        font-family: system-ui;
+                        font-weight: normal;
+                        background: azure;
+                        border-radius: 77px;
+                        padding: 8px 45px;
+                        color: black;
+                        transition: ease-in-out .5s;
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
+                }
             }
         }
     }
