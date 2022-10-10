@@ -4,49 +4,30 @@
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
   height: 107px;
   position: fixed;
   width: 100vw;
   z-index: 9999;
-  background: #303030e3;
+  background: rgba(48, 48, 48, 0.8901960784);
   max-height: 100%;
 }
-
 nav .left-side h2 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: xxx-large;
   color: whitesmoke;
 }
-
 nav .left-side h2 span {
   color: dodgerblue;
 }
-
 nav .right-side ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 nav .right-side ul li {
   margin: 0px 25px;
   list-style: none;
@@ -55,7 +36,11 @@ nav .right-side ul li {
   font-weight: 500;
   color: whitesmoke;
 }
-
+nav .right-side ul li:hover {
+  cursor: pointer;
+  transition: ease-in 0.5s;
+  color: rgb(188, 188, 188);
+}
 nav .right-side ul a {
   margin: 0 0 0 25px;
   font-size: x-large;
@@ -65,21 +50,18 @@ nav .right-side ul a {
   border-radius: 75px;
   padding: 15px 25px;
   color: azure;
-  -webkit-transition: ease-in-out .5s;
-  transition: ease-in-out .5s;
+  transition: ease-in-out 0.5s;
 }
-
 nav .right-side ul a:hover {
   background: azure;
   color: #000000;
-  -webkit-transition: ease-in .5s;
-  transition: ease-in .5s;
+  transition: ease-in 0.5s;
+  cursor: pointer;
 }
 
 .section-1 {
   height: 962px;
 }
-
 .section-1 .sub1-section1 {
   background-image: url(images/sub1-section1_img.avif);
   background-size: cover;
@@ -88,44 +70,26 @@ nav .right-side ul a:hover {
   float: left;
   height: 88vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: center;
+  justify-content: flex-start;
 }
-
 .section-1 .sub1-section1 .sub1-section1-textbox {
   background: #0e77dd;
   width: 32%;
   height: -webkit-fill-available;
 }
-
 .section-1 .sub1-section1 .sub1-section1-textbox h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   height: inherit;
   font-family: system-ui;
   font-weight: 200;
   font-size: 55px;
   color: whitesmoke;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .section-1 .sub1-section1 .sub1-section1-textbox h1 a {
   margin: 104px 31px 0 0px;
   font-family: system-ui;
@@ -134,17 +98,14 @@ nav .right-side ul a:hover {
   border-radius: 77px;
   padding: 15px 61px;
   color: black;
-  -webkit-transition: ease-in-out .5s;
-  transition: ease-in-out .5s;
+  transition: ease-in-out 0.5s;
   font-size: 30px;
   cursor: pointer;
 }
-
 .section-1 .sub1-section1 .sub1-section1-textbox h1 a:hover {
   color: whitesmoke;
   background: #000000;
-  -webkit-transition: ease-in .5s;
-  transition: ease-in .5s;
+  transition: ease-in 0.5s;
 }
 
 .section-2 {
@@ -154,52 +115,35 @@ nav .right-side ul a:hover {
 
 @media screen and (max-width: 1445px) {
   nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     position: fixed;
     width: 100vw;
     z-index: 9999;
-    background: #303030e3;
+    background: rgba(48, 48, 48, 0.8901960784);
     max-height: 15%;
     height: 75px;
   }
   nav .left-side h2 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 25px;
     color: whitesmoke;
   }
   nav .left-side h2 span {
     color: dodgerblue;
     cursor: pointer;
-    -webkit-transition: ease-in .5s;
-    transition: ease-in .5s;
+    transition: ease-in 0.5s;
   }
   nav .left-side h2 span:hover {
-    color: #e2e0e0;
-    -webkit-transition: ease-in .5s;
-    transition: ease-in .5s;
+    color: rgb(226, 224, 224);
+    transition: ease-in 0.5s;
   }
   nav .right-side ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   nav .right-side ul li {
     margin: 0px 25px;
@@ -207,15 +151,13 @@ nav .right-side ul a:hover {
     font-size: 15px;
     font-family: system-ui;
     font-weight: 500;
-    color: #e2e0e0;
+    color: rgb(226, 224, 224);
     cursor: pointer;
-    -webkit-transition: ease-in .5s;
-    transition: ease-in .5s;
+    transition: ease-in 0.5s;
   }
   nav .right-side ul li:hover {
     color: whitesmoke;
-    -webkit-transition: ease-in .5s;
-    transition: ease-in .5s;
+    transition: ease-in 0.5s;
   }
   nav .right-side ul a {
     margin: 0 0 0 25px;
@@ -226,14 +168,12 @@ nav .right-side ul a:hover {
     border-radius: 75px;
     padding: 9px 15px;
     color: azure;
-    -webkit-transition: ease-in-out .5s;
-    transition: ease-in-out .5s;
+    transition: ease-in-out 0.5s;
   }
   nav .right-side ul a:hover {
     background: azure;
     color: #000000;
-    -webkit-transition: ease-in .5s;
-    transition: ease-in .5s;
+    transition: ease-in 0.5s;
     cursor: pointer;
   }
   .section-1 .sub1-section1 {
@@ -246,15 +186,9 @@ nav .right-side ul a:hover {
     position: relative;
   }
   .section-1 .sub1-section1 .sub1-section1-textbox h1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     height: inherit;
     font-family: system-ui;
     font-weight: 500;
@@ -269,10 +203,8 @@ nav .right-side ul a:hover {
     border-radius: 77px;
     padding: 8px 45px;
     color: black;
-    -webkit-transition: ease-in-out .5s;
-    transition: ease-in-out .5s;
+    transition: ease-in-out 0.5s;
     font-size: 20px;
     cursor: pointer;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

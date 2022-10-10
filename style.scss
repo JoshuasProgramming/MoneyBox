@@ -44,6 +44,12 @@ nav{
                 color: whitesmoke;
             }
 
+            li:hover{
+                cursor: pointer;
+                transition: ease-in .5s;
+                color: rgb(188, 188, 188);
+            }
+
             a{
                 margin: 0 0 0 25px;
                 font-size: x-large;
@@ -60,6 +66,7 @@ nav{
                 background: azure;
                 color: #000000;
                 transition: ease-in .5s;
+                cursor: pointer;
             }
         }
     }
