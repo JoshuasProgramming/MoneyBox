@@ -74,7 +74,7 @@ nav{
 }
 
 .section-1{
-    height: 962px;
+    height: 100vh;
 
     .sub1-section1{
         background-image: url(images/sub1-section1_img.avif);
@@ -82,7 +82,7 @@ nav{
         min-height: 90%;
         width: 100%;
         float: left;
-        height: 88vh;
+        height: -webkit-fill-available;
         position: relative;
 
         display: flex;
