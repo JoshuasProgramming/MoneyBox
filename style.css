@@ -124,7 +124,7 @@ nav .right-side ul a:hover {
   height: 63vh;
   background: #f5f5f5;
 }
-.section-2 .sub2-section2 {
+.section-2 .sub1-section2 {
   background: #0e77dd;
   width: -webkit-fill-available;
   height: 54%;
@@ -133,20 +133,20 @@ nav .right-side ul a:hover {
   flex-direction: row;
   justify-content: space-around;
 }
-.section-2 .sub2-section2 .left h1 {
+.section-2 .sub1-section2 .left h1 {
   font-family: system-ui;
   font-weight: 400;
   font-size: 41px;
   color: whitesmoke;
 }
-.section-2 .sub2-section2 .right .head-text {
+.section-2 .sub1-section2 .right .head-text {
   font-family: system-ui;
   font-weight: 100;
   font-size: 27px;
   color: whitesmoke;
   padding-bottom: 7.5%;
 }
-.section-2 .sub2-section2 .right .videoLinkBtn {
+.section-2 .sub1-section2 .right .videoLinkBtn {
   width: initial;
   margin: auto;
   background: azure;
@@ -156,27 +156,27 @@ nav .right-side ul a:hover {
   border-radius: 20px;
   transition: ease-in 0.5s;
 }
-.section-2 .sub2-section2 .right .videoLinkBtn h4 {
+.section-2 .sub1-section2 .right .videoLinkBtn h4 {
   font-family: system-ui;
   font-weight: 400;
   font-size: medium;
   transition: ease-in 0.5s;
 }
-.section-2 .sub2-section2 .right .videoLinkBtn p {
+.section-2 .sub1-section2 .right .videoLinkBtn p {
   font-family: system-ui;
   font-size: medium;
   transition: ease-in 0.5s;
 }
-.section-2 .sub2-section2 .right .videoLinkBtn:hover {
+.section-2 .sub1-section2 .right .videoLinkBtn:hover {
   background: #000000;
   transition: ease-in 0.5s;
   cursor: pointer;
 }
-.section-2 .sub2-section2 .right .videoLinkBtn:hover h4 {
+.section-2 .sub1-section2 .right .videoLinkBtn:hover h4 {
   color: whitesmoke;
   transition: ease-in 0.5s;
 }
-.section-2 .sub2-section2 .right .videoLinkBtn:hover p {
+.section-2 .sub1-section2 .right .videoLinkBtn:hover p {
   color: whitesmoke;
   transition: ease-in 0.5s;
 }
