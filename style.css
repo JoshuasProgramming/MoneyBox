@@ -47,6 +47,7 @@ nav .right-side ul li {
   font-family: system-ui;
   font-weight: 500;
   color: whitesmoke;
+  transition: ease-in 0.5s;
 }
 nav .right-side ul li:hover {
   cursor: pointer;
