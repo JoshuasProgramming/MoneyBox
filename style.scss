@@ -150,14 +150,14 @@ nav{
     height: 63vh;
     background: #f5f5f5;
 
-    .sub1-section2{
+    .sub-section2{
         background: #0e77dd;
         width: -webkit-fill-available;
         height: 54%;
         display: flex;
         align-items: center;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         .left{
             h1{
@@ -165,6 +165,7 @@ nav{
                 font-weight: 400;
                 font-size: 41px;
                 color: whitesmoke;
+                width: 30vw;
             }
         }
 
@@ -178,7 +179,7 @@ nav{
             }
 
             .videoLinkBtn{
-                width: initial;
+                width: 550px;;
                 margin: auto;
                 background: azure;
                 padding: 18px 61px;
