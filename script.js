@@ -1,0 +1,1 @@
+const moneybox_logo = docu
