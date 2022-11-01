@@ -294,4 +294,12 @@ nav .right-side ul a:hover {
     font-size: 25px;
     text-align: justify;
   }
+}
+@media screen and (max-width: 912px) {
+  nav {
+    justify-content: center;
+  }
+  nav .right-side {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
