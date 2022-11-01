@@ -316,6 +316,13 @@ nav .right-side ul a:hover {
     width: 100%;
     height: 100%;
   }
+  .section-1 .sub1-section1 .sub1-section1-textbox h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .section-1 .sub1-section1 .sub1-section1-textbox h1 a {
+    padding: 8px 81px;
+  }
   .section-2 .sub-section2 {
     flex-direction: column;
   }
