@@ -30,6 +30,9 @@ nav .left-side h2 span:hover {
   color: whitesmoke;
   transition: ease-in 0.5s;
 }
+nav .left-side .mobile-logo {
+  display: none;
+}
 nav .left-side h2:hover {
   color: dodgerblue;
   cursor: pointer;
@@ -301,5 +304,11 @@ nav .right-side ul a:hover {
   }
   nav .right-side {
     display: none;
+  }
+  nav .left-side h2 {
+    display: none;
+  }
+  nav .left-side .mobile-logo {
+    display: inline;
   }
 }/*# sourceMappingURL=style.css.map */

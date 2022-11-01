@@ -36,6 +36,10 @@ nav{
             }
         }
 
+        .mobile-logo{
+            display: none;
+        }
+
         h2:hover{
             color: dodgerblue;
             cursor: pointer;
@@ -379,6 +383,14 @@ nav{
         justify-content: center;
         .right-side{
             display: none;
+        }
+        .left-side{
+            h2{
+                display: none;
+            }
+            .mobile-logo{
+                display: inline;
+            }
         }
     }
 }
