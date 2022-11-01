@@ -1,1 +1,4 @@
-const moneybox_logo = docu
+$(document).ready(function(
+){
+    alert("worked");
+})
