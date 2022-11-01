@@ -182,6 +182,9 @@ nav .right-side ul a:hover {
   color: whitesmoke;
   transition: ease-in 0.5s;
 }
+.section-2 .reverse {
+  flex-direction: row-reverse;
+}
 
 @media screen and (min-width: 2000px) {
   nav {
