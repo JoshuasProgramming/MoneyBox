@@ -285,4 +285,13 @@ nav .right-side ul a:hover {
     font-size: 20px;
     cursor: pointer;
   }
+}
+@media screen and (max-width: 1216px) {
+  .section-2 .sub-section2 .left h1 {
+    font-size: 30px;
+  }
+  .section-2 .sub-section2 .right .head-text {
+    font-size: 25px;
+    text-align: justify;
+  }
 }/*# sourceMappingURL=style.css.map */

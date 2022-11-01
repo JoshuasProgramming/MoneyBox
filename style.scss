@@ -354,4 +354,24 @@ nav{
     }
 }
 
+//tablet (smaller) viewpoint
+@media screen and (max-width:1216px) {
+    .section-2{
+        .sub-section2{
+            .left{
+                h1{
+                    font-size: 30px;
+                }
+            }
+            .right{
+                .head-text{
+                    font-size: 25px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
 //mobile
+
