@@ -316,4 +316,29 @@ nav .right-side ul a:hover {
     width: 100%;
     height: 100%;
   }
+  .section-2 .sub-section2 {
+    flex-direction: column;
+  }
+  .section-2 .sub-section2 .left h1 {
+    width: auto;
+    font-size: 22px;
+    text-align: center;
+  }
+  .section-2 .sub-section2 .right .head-text {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+  }
+  .section-2 .sub-section2 .right .videoLinkBtn {
+    width: 200px;
+    flex-direction: column;
+    height: 100px;
+  }
+  .section-2 .sub-section2 .right .videoLinkBtn h4 {
+    text-align: center;
+  }
+  .section-2 .sub-section2 .right .videoLinkBtn p {
+    text-align: center;
+    font-size: small;
+  }
 }/*# sourceMappingURL=style.css.map */

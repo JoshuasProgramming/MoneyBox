@@ -406,5 +406,39 @@ nav{
         }
     }
 
-    
+    .section-2{
+        .sub-section2{
+            flex-direction: column;
+
+            .left{
+                h1{
+                    width: auto;
+                    font-size: 22px;
+                    text-align: center;
+                }
+            }
+            .right{
+                .head-text{
+                    width: auto;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                .videoLinkBtn{
+                    width: 200px;
+                    flex-direction: column;
+                    height: 100px;
+
+                    h4{
+                        text-align: center;
+                    }
+
+                    p{
+                        text-align: center;
+                        font-size: small;
+                    }
+                }
+            }
+
+        }
+    }
 }
