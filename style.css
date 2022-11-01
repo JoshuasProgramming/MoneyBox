@@ -311,4 +311,9 @@ nav .right-side ul a:hover {
   nav .left-side .mobile-logo {
     display: inline;
   }
+  .section-1 .sub1-section1 .sub1-section1-textbox {
+    background: #0e77dd;
+    width: 100%;
+    height: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
