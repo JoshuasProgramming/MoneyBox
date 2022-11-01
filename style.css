@@ -323,6 +323,9 @@ nav .right-side ul a:hover {
   .section-1 .sub1-section1 .sub1-section1-textbox h1 a {
     padding: 8px 81px;
   }
+  .section-2 {
+    height: 100vh;
+  }
   .section-2 .sub-section2 {
     flex-direction: column;
   }
