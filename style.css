@@ -52,6 +52,13 @@ nav .right-side ul li {
   color: whitesmoke;
   transition: ease-in 0.5s;
 }
+nav .right-side ul li .find-brand-li {
+  background: #08335e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 nav .right-side ul li:hover {
   cursor: pointer;
   transition: ease-in 0.5s;
@@ -184,6 +191,23 @@ nav .right-side ul a:hover {
 .section-2 .sub-section2 .right .videoLinkBtn:hover p {
   color: whitesmoke;
   transition: ease-in 0.5s;
+}
+.section-2 .sub-section2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-2 .sub-section2 .container .left h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.section-2 .sub-section2 .container .right .head-text {
+  font-size: 18px;
+  text-align: center;
+}
+.section-2 .sub-section2 .container .right .videoLinkBtn {
+  width: 400px;
 }
 .section-2 .reverse {
   flex-direction: row-reverse;

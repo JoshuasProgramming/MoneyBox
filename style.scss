@@ -62,6 +62,14 @@ nav{
                 font-weight: 500;
                 color: whitesmoke;
                 transition: ease-in .5s;
+
+                .find-brand-li{
+                    background: #08335e;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
             }
 
             li:hover{
@@ -220,6 +228,30 @@ nav{
                 p{
                     color: whitesmoke;
                     transition: ease-in .5s;
+                }
+            }
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .left{
+                h1{
+                    font-size: 25px;
+                    text-align: center;
+                }
+            }
+
+            .right{
+                .head-text{
+                    font-size: 18px;
+                    text-align: center;
+                }
+                .videoLinkBtn{
+                    width: 400px;
                 }
             }
         }
