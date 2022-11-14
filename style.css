@@ -322,6 +322,12 @@ nav .right-side ul a:hover {
     padding-bottom: 5%;
     padding-top: 5%;
   }
+  .section-2 .sub-section2-responsive .container .left h1 {
+    padding-bottom: 5%;
+  }
+  .section-2 .sub-section2-responsive .container .right .videoLinkBtn {
+    width: 545px;
+  }
 }
 @media screen and (max-width: 1216px) {
   .section-2 .sub-section2 .left h1 {
