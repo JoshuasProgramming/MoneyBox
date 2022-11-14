@@ -312,6 +312,16 @@ nav .right-side ul a:hover {
     font-size: 20px;
     cursor: pointer;
   }
+  .section-2 .sub-section2-responsive {
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .section-2 .sub-section2-responsive .container {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
 }
 @media screen and (max-width: 1216px) {
   .section-2 .sub-section2 .left h1 {

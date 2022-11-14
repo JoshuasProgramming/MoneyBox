@@ -388,6 +388,19 @@ nav{
             }
         }
     }
+
+    .section-2{
+
+        .sub-section2-responsive{
+            flex-direction: column;
+            height: fit-content;
+
+            .container{
+                padding-bottom: 5%;
+                padding-top: 5%;
+            }
+        }
+    }
 }
 
 //tablet (smaller) viewpoint

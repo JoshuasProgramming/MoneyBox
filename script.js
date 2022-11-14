@@ -6,7 +6,4 @@ $(document).ready(function(
     $('#moneybox_logo').click(function(){
         
     });
-
-
-
 })
