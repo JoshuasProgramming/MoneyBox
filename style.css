@@ -337,6 +337,22 @@ nav .right-side ul a:hover {
     font-size: 25px;
     text-align: justify;
   }
+  .section-2 .sub-section2-responsive {
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .section-2 .sub-section2-responsive .container {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .section-2 .sub-section2-responsive .container .left h1 {
+    padding-bottom: 5%;
+  }
+  .section-2 .sub-section2-responsive .container .right .videoLinkBtn {
+    width: 545px;
+  }
 }
 @media screen and (max-width: 1000px) {
   nav {

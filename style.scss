@@ -431,6 +431,27 @@ nav{
                 }
             }
         }
+        .sub-section2-responsive{
+            flex-direction: column;
+            height: fit-content;
+
+            .container{
+                padding-bottom: 5%;
+                padding-top: 5%;
+
+                .left{
+                    h1{
+                        padding-bottom: 5%;
+                    }
+                }
+
+                .right{
+                    .videoLinkBtn{
+                        width: 545px;
+                    }
+                }
+            }
+        }
     }
 }
 
