@@ -82,6 +82,10 @@ nav .right-side ul a:hover {
   cursor: pointer;
 }
 
+.disabled {
+  display: none;
+}
+
 .section-1 {
   height: 100vh;
 }
